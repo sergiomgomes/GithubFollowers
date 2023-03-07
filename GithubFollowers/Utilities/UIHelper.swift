@@ -12,7 +12,6 @@ struct UIHelper {
         let itemSpacing: CGFloat = 2
         let itemsPerLine: CGFloat = 3
         let itemWidth = (UIScreen.main.bounds.size.width - (itemSpacing * CGFloat(itemsPerLine - 1))) / itemsPerLine
-        print("view.bounds.width = \(view.bounds.width), itemWidth = \(itemWidth)")
         
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
