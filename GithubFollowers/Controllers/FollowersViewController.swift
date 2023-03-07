@@ -13,6 +13,7 @@ class FollowersViewController: UIViewController {
         case main
     }
     
+    
     var username: String!
     var followers: [Follower] = []
     
