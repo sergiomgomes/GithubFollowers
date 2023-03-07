@@ -27,6 +27,7 @@
 		4908F85F29B6946200F07AF4 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F85E29B6946200F07AF4 /* ErrorMessage.swift */; };
 		4908F86129B6A67100F07AF4 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F86029B6A67100F07AF4 /* FollowerCell.swift */; };
 		4908F86429B6A6F900F07AF4 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F86329B6A6F900F07AF4 /* GFAvatarImageView.swift */; };
+		4908F86629B6C0EA00F07AF4 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F86529B6C0EA00F07AF4 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		4908F85E29B6946200F07AF4 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		4908F86029B6A67100F07AF4 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		4908F86329B6A6F900F07AF4 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		4908F86529B6C0EA00F07AF4 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				4908F85E29B6946200F07AF4 /* ErrorMessage.swift */,
+				4908F86529B6C0EA00F07AF4 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				4908F84F29AEE21E00F07AF4 /* UIViewControllerExtension.swift in Sources */,
 				4908F83F29ABEF7800F07AF4 /* FavoritesViewController.swift in Sources */,
 				4908F85F29B6946200F07AF4 /* ErrorMessage.swift in Sources */,
+				4908F86629B6C0EA00F07AF4 /* UIHelper.swift in Sources */,
 				4908F85C29B00EE900F07AF4 /* NetworkManager.swift in Sources */,
 				4908F82B29AB86A700F07AF4 /* SceneDelegate.swift in Sources */,
 				4908F84B29AEDB8000F07AF4 /* GFBodyLabel.swift in Sources */,
