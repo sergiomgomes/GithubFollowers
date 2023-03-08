@@ -29,6 +29,7 @@
 		4908F86429B6A6F900F07AF4 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F86329B6A6F900F07AF4 /* GFAvatarImageView.swift */; };
 		4908F86629B6C0EA00F07AF4 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F86529B6C0EA00F07AF4 /* UIHelper.swift */; };
 		4908F86C29B7FAE600F07AF4 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F86B29B7FAE600F07AF4 /* GFEmptyStateView.swift */; };
+		4908F86E29B806D600F07AF4 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F86D29B806D600F07AF4 /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		4908F86329B6A6F900F07AF4 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		4908F86529B6C0EA00F07AF4 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		4908F86B29B7FAE600F07AF4 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		4908F86D29B806D600F07AF4 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				4908F84429AED3B600F07AF4 /* FollowersViewController.swift */,
 				4908F83E29ABEF7800F07AF4 /* FavoritesViewController.swift */,
 				4908F83C29ABEF4D00F07AF4 /* SearchViewController.swift */,
+				4908F86D29B806D600F07AF4 /* UserViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				4908F84129AD749100F07AF4 /* GFButton.swift in Sources */,
 				4908F86C29B7FAE600F07AF4 /* GFEmptyStateView.swift in Sources */,
 				4908F83D29ABEF4D00F07AF4 /* SearchViewController.swift in Sources */,
+				4908F86E29B806D600F07AF4 /* UserViewController.swift in Sources */,
 				4908F85929B0088400F07AF4 /* User.swift in Sources */,
 				4908F86129B6A67100F07AF4 /* FollowerCell.swift in Sources */,
 				4908F86429B6A6F900F07AF4 /* GFAvatarImageView.swift in Sources */,
