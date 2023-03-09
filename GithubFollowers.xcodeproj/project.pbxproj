@@ -33,6 +33,7 @@
 		4908F87029B93A9200F07AF4 /* UserInfoHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F86F29B93A9100F07AF4 /* UserInfoHeaderViewController.swift */; };
 		4908F87229B93BBD00F07AF4 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87129B93BBD00F07AF4 /* GFSecondaryTitleLabel.swift */; };
 		4908F87429B9442500F07AF4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87329B9442400F07AF4 /* Constants.swift */; };
+		4908F87629BA688000F07AF4 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87529BA687F00F07AF4 /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		4908F86F29B93A9100F07AF4 /* UserInfoHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeaderViewController.swift; sourceTree = "<group>"; };
 		4908F87129B93BBD00F07AF4 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		4908F87329B9442400F07AF4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4908F87529BA687F00F07AF4 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				4908F86229B6A67600F07AF4 /* Cells */,
 				4908F86B29B7FAE600F07AF4 /* GFEmptyStateView.swift */,
 				4908F86F29B93A9100F07AF4 /* UserInfoHeaderViewController.swift */,
+				4908F87529BA687F00F07AF4 /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				4908F86629B6C0EA00F07AF4 /* UIHelper.swift in Sources */,
 				4908F85C29B00EE900F07AF4 /* NetworkManager.swift in Sources */,
 				4908F82B29AB86A700F07AF4 /* SceneDelegate.swift in Sources */,
+				4908F87629BA688000F07AF4 /* GFItemInfoView.swift in Sources */,
 				4908F84B29AEDB8000F07AF4 /* GFBodyLabel.swift in Sources */,
 				4908F87429B9442500F07AF4 /* Constants.swift in Sources */,
 			);

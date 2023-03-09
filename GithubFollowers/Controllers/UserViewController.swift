@@ -10,15 +10,14 @@ import UIKit
 class UserViewController: UIViewController {
     
     let headerView = UIView()
+    let githubProfileView = UIView()
+    let followersDetailsView = UIView()
     
     var username: String!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBackground
-        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissViewController))
-        navigationItem.rightBarButtonItem = doneButton
-        
+        configureViewController()
         layoutUI()
         getUser()
     }
@@ -42,15 +41,36 @@ class UserViewController: UIViewController {
         }
     }
     
+    func configureViewController() {
+        view.backgroundColor = .systemBackground
+        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissViewController))
+        navigationItem.rightBarButtonItem = doneButton
+    }
+    
     func layoutUI() {
-        view.addSubview(headerView)
-        headerView.translatesAutoresizingMaskIntoConstraints = false
+        let itemViews = [headerView, githubProfileView, followersDetailsView]
+        itemViews.forEach { itemView in
+            view.addSubview(itemView)
+            itemView.translatesAutoresizingMaskIntoConstraints = false
+        }
+        
+        let padding: CGFloat = 20
         
         NSLayoutConstraint.activate([
             headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            headerView.heightAnchor.constraint(equalToConstant: 180)
+            headerView.heightAnchor.constraint(equalToConstant: 180),
+            
+            githubProfileView.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: padding),
+            githubProfileView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
+            githubProfileView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
+            githubProfileView.heightAnchor.constraint(equalToConstant: 140),
+            
+            followersDetailsView.topAnchor.constraint(equalTo: githubProfileView.bottomAnchor, constant: padding),
+            followersDetailsView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
+            followersDetailsView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
+            followersDetailsView.heightAnchor.constraint(equalToConstant: 140),
         ])
     }
     
