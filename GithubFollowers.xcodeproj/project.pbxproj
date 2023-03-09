@@ -34,6 +34,9 @@
 		4908F87229B93BBD00F07AF4 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87129B93BBD00F07AF4 /* GFSecondaryTitleLabel.swift */; };
 		4908F87429B9442500F07AF4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87329B9442400F07AF4 /* Constants.swift */; };
 		4908F87629BA688000F07AF4 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87529BA687F00F07AF4 /* GFItemInfoView.swift */; };
+		4908F87829BA6DD200F07AF4 /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87729BA6DD200F07AF4 /* ItemInfoViewController.swift */; };
+		4908F87A29BA94CD00F07AF4 /* ReposItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87929BA94CD00F07AF4 /* ReposItemViewController.swift */; };
+		4908F87C29BA967B00F07AF4 /* FollowerItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87B29BA967B00F07AF4 /* FollowerItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +69,9 @@
 		4908F87129B93BBD00F07AF4 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		4908F87329B9442400F07AF4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4908F87529BA687F00F07AF4 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		4908F87729BA6DD200F07AF4 /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
+		4908F87929BA94CD00F07AF4 /* ReposItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposItemViewController.swift; sourceTree = "<group>"; };
+		4908F87B29BA967B00F07AF4 /* FollowerItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +127,6 @@
 				4908F86729B7FA6400F07AF4 /* Buttons */,
 				4908F86229B6A67600F07AF4 /* Cells */,
 				4908F86B29B7FAE600F07AF4 /* GFEmptyStateView.swift */,
-				4908F86F29B93A9100F07AF4 /* UserInfoHeaderViewController.swift */,
 				4908F87529BA687F00F07AF4 /* GFItemInfoView.swift */,
 			);
 			path = Views;
@@ -130,11 +135,15 @@
 		4908F85129AFD91D00F07AF4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4908F86F29B93A9100F07AF4 /* UserInfoHeaderViewController.swift */,
 				4908F84C29AEDC3200F07AF4 /* AlertViewController.swift */,
 				4908F84429AED3B600F07AF4 /* FollowersViewController.swift */,
 				4908F83E29ABEF7800F07AF4 /* FavoritesViewController.swift */,
 				4908F83C29ABEF4D00F07AF4 /* SearchViewController.swift */,
 				4908F86D29B806D600F07AF4 /* UserViewController.swift */,
+				4908F87729BA6DD200F07AF4 /* ItemInfoViewController.swift */,
+				4908F87929BA94CD00F07AF4 /* ReposItemViewController.swift */,
+				4908F87B29BA967B00F07AF4 /* FollowerItemViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -306,9 +315,11 @@
 			files = (
 				4908F84729AED89A00F07AF4 /* StringExtensions.swift in Sources */,
 				4908F84329AD788300F07AF4 /* GFTextField.swift in Sources */,
+				4908F87C29BA967B00F07AF4 /* FollowerItemViewController.swift in Sources */,
 				4908F82929AB86A700F07AF4 /* AppDelegate.swift in Sources */,
 				4908F84529AED3B700F07AF4 /* FollowersViewController.swift in Sources */,
 				4908F84129AD749100F07AF4 /* GFButton.swift in Sources */,
+				4908F87A29BA94CD00F07AF4 /* ReposItemViewController.swift in Sources */,
 				4908F86C29B7FAE600F07AF4 /* GFEmptyStateView.swift in Sources */,
 				4908F83D29ABEF4D00F07AF4 /* SearchViewController.swift in Sources */,
 				4908F87229B93BBD00F07AF4 /* GFSecondaryTitleLabel.swift in Sources */,
@@ -323,6 +334,7 @@
 				4908F84F29AEE21E00F07AF4 /* UIViewControllerExtension.swift in Sources */,
 				4908F83F29ABEF7800F07AF4 /* FavoritesViewController.swift in Sources */,
 				4908F85F29B6946200F07AF4 /* ErrorMessage.swift in Sources */,
+				4908F87829BA6DD200F07AF4 /* ItemInfoViewController.swift in Sources */,
 				4908F86629B6C0EA00F07AF4 /* UIHelper.swift in Sources */,
 				4908F85C29B00EE900F07AF4 /* NetworkManager.swift in Sources */,
 				4908F82B29AB86A700F07AF4 /* SceneDelegate.swift in Sources */,

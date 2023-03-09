@@ -34,6 +34,8 @@ class UserViewController: UIViewController {
             case .success(let user):
                 DispatchQueue.main.async {
                     self.add(childViewController: UserInfoHeaderViewController(user: user), to: self.headerView)
+                    self.add(childViewController: ReposItemViewController(user: user), to: self.githubProfileView)
+                    self.add(childViewController: FollowerItemViewController(user: user), to: self.followersDetailsView)
                 }
             case .failure(let error):
                 self.presentAlertOnMainThread(title: "Bad Stuff Happened", message: error.rawValue, buttonTitle: "Ok")
