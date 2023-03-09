@@ -37,6 +37,7 @@
 		4908F87829BA6DD200F07AF4 /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87729BA6DD200F07AF4 /* ItemInfoViewController.swift */; };
 		4908F87A29BA94CD00F07AF4 /* ReposItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87929BA94CD00F07AF4 /* ReposItemViewController.swift */; };
 		4908F87C29BA967B00F07AF4 /* FollowerItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87B29BA967B00F07AF4 /* FollowerItemViewController.swift */; };
+		4908F87E29BA9ADF00F07AF4 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87D29BA9ADF00F07AF4 /* DateExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		4908F87729BA6DD200F07AF4 /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
 		4908F87929BA94CD00F07AF4 /* ReposItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposItemViewController.swift; sourceTree = "<group>"; };
 		4908F87B29BA967B00F07AF4 /* FollowerItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerItemViewController.swift; sourceTree = "<group>"; };
+		4908F87D29BA9ADF00F07AF4 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			children = (
 				4908F84629AED89A00F07AF4 /* StringExtensions.swift */,
 				4908F84E29AEE21E00F07AF4 /* UIViewControllerExtension.swift */,
+				4908F87D29BA9ADF00F07AF4 /* DateExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				4908F83F29ABEF7800F07AF4 /* FavoritesViewController.swift in Sources */,
 				4908F85F29B6946200F07AF4 /* ErrorMessage.swift in Sources */,
 				4908F87829BA6DD200F07AF4 /* ItemInfoViewController.swift in Sources */,
+				4908F87E29BA9ADF00F07AF4 /* DateExtensions.swift in Sources */,
 				4908F86629B6C0EA00F07AF4 /* UIHelper.swift in Sources */,
 				4908F85C29B00EE900F07AF4 /* NetworkManager.swift in Sources */,
 				4908F82B29AB86A700F07AF4 /* SceneDelegate.swift in Sources */,
