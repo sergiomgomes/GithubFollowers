@@ -28,6 +28,7 @@ class SearchViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        usernameTextField.text = ""
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
@@ -42,16 +43,16 @@ class SearchViewController: UIViewController {
             return
         }
         
-        let followersViewController = FollowersViewController()
-        followersViewController.username = usernameTextField.text
-        followersViewController.title = usernameTextField.text
+        usernameTextField.resignFirstResponder()
+        
+        let followersViewController = FollowersViewController(username: usernameTextField.text!)
         navigationController?.pushViewController(followersViewController, animated: true)
     }
     
     func configureLogoImageView() {
         view.addSubview(logoImageView)
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
-        logoImageView.image = UIImage(named: "gh-logo")
+        logoImageView.image = Images.ghLogo
         
         NSLayoutConstraint.activate([
             logoImageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 80),
@@ -71,6 +72,9 @@ class SearchViewController: UIViewController {
             usernameTextField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -50),
             usernameTextField.heightAnchor.constraint(equalToConstant: 50)
         ])
+        
+        let usernameTextFieldOnKeyboard = view.keyboardLayoutGuide.topAnchor.constraint(equalTo: usernameTextField.bottomAnchor, constant: 100)
+        view.keyboardLayoutGuide.setConstraints([usernameTextFieldOnKeyboard], activeWhenAwayFrom: .top)
     }
     
     func configureCallToActionButton() {
