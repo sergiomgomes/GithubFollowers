@@ -41,6 +41,8 @@
 		4908F88029BE5FC000F07AF4 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F87F29BE5FC000F07AF4 /* PersistanceManager.swift */; };
 		4908F88229BE6DB700F07AF4 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F88129BE6DB700F07AF4 /* FavoriteCell.swift */; };
 		4908F88529CB875300F07AF4 /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F88429CB875300F07AF4 /* GFTabBarController.swift */; };
+		4908F88729CE363500F07AF4 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F88629CE363500F07AF4 /* GFAlertContainerView.swift */; };
+		4908F88929CE4E1C00F07AF4 /* GFDataLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F88829CE4E1C00F07AF4 /* GFDataLoadingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +82,8 @@
 		4908F87F29BE5FC000F07AF4 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
 		4908F88129BE6DB700F07AF4 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		4908F88429CB875300F07AF4 /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
+		4908F88629CE363500F07AF4 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		4908F88829CE4E1C00F07AF4 /* GFDataLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 				4908F86229B6A67600F07AF4 /* Cells */,
 				4908F86B29B7FAE600F07AF4 /* GFEmptyStateView.swift */,
 				4908F87529BA687F00F07AF4 /* GFItemInfoView.swift */,
+				4908F88629CE363500F07AF4 /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				4908F88429CB875300F07AF4 /* GFTabBarController.swift */,
+				4908F88829CE4E1C00F07AF4 /* GFDataLoadingViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -343,6 +349,7 @@
 				4908F86C29B7FAE600F07AF4 /* GFEmptyStateView.swift in Sources */,
 				4908F83D29ABEF4D00F07AF4 /* SearchViewController.swift in Sources */,
 				4908F87229B93BBD00F07AF4 /* GFSecondaryTitleLabel.swift in Sources */,
+				4908F88929CE4E1C00F07AF4 /* GFDataLoadingViewController.swift in Sources */,
 				4908F86E29B806D600F07AF4 /* UserViewController.swift in Sources */,
 				4908F85929B0088400F07AF4 /* User.swift in Sources */,
 				4908F86129B6A67100F07AF4 /* FollowerCell.swift in Sources */,
@@ -354,6 +361,7 @@
 				4908F87029B93A9200F07AF4 /* UserInfoHeaderViewController.swift in Sources */,
 				4908F85729B0079600F07AF4 /* Follower.swift in Sources */,
 				4908F84D29AEDC3200F07AF4 /* AlertViewController.swift in Sources */,
+				4908F88729CE363500F07AF4 /* GFAlertContainerView.swift in Sources */,
 				4908F84F29AEE21E00F07AF4 /* UIViewControllerExtension.swift in Sources */,
 				4908F83F29ABEF7800F07AF4 /* FavoritesViewController.swift in Sources */,
 				4908F85F29B6946200F07AF4 /* ErrorMessage.swift in Sources */,

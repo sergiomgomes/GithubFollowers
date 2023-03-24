@@ -58,7 +58,7 @@ class UserViewController: UIViewController {
         self.add(childViewController: UserInfoHeaderViewController(user: user), to: self.headerView)
         self.add(childViewController: reposItemViewController, to: self.githubProfileView)
         self.add(childViewController: followerItemViewController, to: self.followersDetailsView)
-        self.dateLabel.text = "GitHub since \(user.createdAt.convertToDisplayFormat())"
+        self.dateLabel.text = "GitHub since \(user.createdAt)"
     }
     
     func configureViewController() {
