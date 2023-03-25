@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct UIHelper {
+enum UIHelper {
     static func createThreeColumnFlowLayout(in view: UIView) -> UICollectionViewFlowLayout {
         let itemSpacing: CGFloat = 2
         let itemsPerLine: CGFloat = 3

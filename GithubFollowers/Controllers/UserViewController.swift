@@ -8,8 +8,7 @@
 import UIKit
 
 protocol UserViewControllerDelegate: AnyObject {
-    func didTapGitHubProfile(for user: User)
-    func didTapGetFollowers(for user: User)
+    func didRequestFollowers(for username: String)
 }
 
 class UserViewController: UIViewController {
@@ -20,7 +19,7 @@ class UserViewController: UIViewController {
     let dateLabel = GFBodyLabel(textAlignment: .center)
     
     var username: String!
-    weak var delegate: FollowersViewControllerDelegate!
+    weak var delegate: UserViewControllerDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -80,7 +79,7 @@ class UserViewController: UIViewController {
             headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            headerView.heightAnchor.constraint(equalToConstant: 180),
+            headerView.heightAnchor.constraint(equalToConstant: 210),
             
             githubProfileView.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: padding),
             githubProfileView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
@@ -95,7 +94,7 @@ class UserViewController: UIViewController {
             dateLabel.topAnchor.constraint(equalTo: followersDetailsView.bottomAnchor, constant: padding),
             dateLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
             dateLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
-            dateLabel.heightAnchor.constraint(equalToConstant: 18)
+            dateLabel.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
     
@@ -108,7 +107,7 @@ class UserViewController: UIViewController {
 }
 
 
-extension UserViewController: UserViewControllerDelegate {
+extension UserViewController: ItemInfoViewControllerDelegate {
     func didTapGitHubProfile(for user: User) {
         guard let url = URL(string: user.htmlUrl) else {
             presentAlertOnMainThread(title: "Invalid URL", message: "The URL attached to this user is invalid.", buttonTitle: "Ok")
