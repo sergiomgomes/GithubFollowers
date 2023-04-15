@@ -44,6 +44,7 @@
 		4908F88729CE363500F07AF4 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F88629CE363500F07AF4 /* GFAlertContainerView.swift */; };
 		4908F88929CE4E1C00F07AF4 /* GFDataLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F88829CE4E1C00F07AF4 /* GFDataLoadingViewController.swift */; };
 		4908F88B29CF45A100F07AF4 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4908F88A29CF45A000F07AF4 /* UIViewExtensions.swift */; };
+		7CFCDF1A29EB47BC006EFADA /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFCDF1929EB47BC006EFADA /* UITableViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		4908F88629CE363500F07AF4 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		4908F88829CE4E1C00F07AF4 /* GFDataLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingViewController.swift; sourceTree = "<group>"; };
 		4908F88A29CF45A000F07AF4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		7CFCDF1929EB47BC006EFADA /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				4908F84E29AEE21E00F07AF4 /* UIViewControllerExtension.swift */,
 				4908F87D29BA9ADF00F07AF4 /* DateExtensions.swift */,
 				4908F88A29CF45A000F07AF4 /* UIViewExtensions.swift */,
+				7CFCDF1929EB47BC006EFADA /* UITableViewExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				4908F84729AED89A00F07AF4 /* StringExtensions.swift in Sources */,
 				4908F88B29CF45A100F07AF4 /* UIViewExtensions.swift in Sources */,
 				4908F84329AD788300F07AF4 /* GFTextField.swift in Sources */,
+				7CFCDF1A29EB47BC006EFADA /* UITableViewExtensions.swift in Sources */,
 				4908F87C29BA967B00F07AF4 /* FollowerItemViewController.swift in Sources */,
 				4908F82929AB86A700F07AF4 /* AppDelegate.swift in Sources */,
 				4908F84529AED3B700F07AF4 /* FollowersViewController.swift in Sources */,
