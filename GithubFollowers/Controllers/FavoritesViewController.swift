@@ -85,7 +85,6 @@ extension FavoritesViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         guard editingStyle == .delete else { return }
-        
         let favorite = favorites[indexPath.row]
         
         PersistenceManager.updateWith(favorite: favorite, actionType: .remove) { [weak self] error in
